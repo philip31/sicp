@@ -1,0 +1,6 @@
+(define (square x)
+    (define (pow y)
+        (* y y))
+    (if (empty? x)
+        ()
+        (se (pow (first x)) (square (bf x)))))
